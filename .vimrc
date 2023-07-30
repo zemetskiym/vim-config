@@ -12,3 +12,6 @@ colorscheme torte
 
 " Enable syntax highlighting for various file types
 syntax enable
+
+" Show line numbers
+set number
