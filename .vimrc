@@ -15,3 +15,7 @@ syntax enable
 
 " Show line numbers
 set number
+
+" Bind Tab for coc.nvim autocompletion if the popup menu is open
+inoremap <silent><expr> <tab> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<TAB>"
+inoremap <silent><expr> <cr> "\<c-g>u\<CR>"
